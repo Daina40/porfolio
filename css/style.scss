@@ -1,0 +1,123 @@
+header{
+    .topbar{
+        background-color: black;
+        .container{
+            .info{
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    nav{
+        .container{
+            a{
+                span{
+                    font-size: 20px;
+                    font-style: italic;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+#slider{
+    h3{
+        font-size: 50px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    p{
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bold;
+    }
+}
+#about{
+    background-color: rgb(153, 194, 199);
+    h2{
+        font-style: italic;
+        font-weight: bold;
+        border-bottom: 3px solid;
+    }
+    p{
+        font-style: italic;
+        font-weight: bold;
+        width: 80%; 
+    }
+}    
+#travels{
+    h1{
+        font-size: 50px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    p{  
+        font-size: 15px;
+        font-style: italic;
+        font-weight: bold;
+    }
+}
+#do{
+    .container{
+        h1{
+            font-style: italic;
+            font-weight: bold;
+        }
+        
+        h3{ 
+            font-size: 25px;
+            font-style: italic;
+            font-weight: bold;
+        }
+        p{
+            font-size: 15px;
+            font-style: italic;
+            font-weight: bold;
+        }
+        .row{
+            .card{
+                i{
+                    font-size: 30px;
+                }
+                h5{
+                    font-size: 25px;
+                    font-style: italic;
+                    font-weight: bold;
+                }
+                p{
+                    font-style: italic;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+#journey{
+    background: linear-gradient(rgba(0,0,0,0.5)rgba(0,0,0,0.5)), url(../image/bannar/sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    .container{
+        .row{
+            h1{
+                
+                font-style: italic;
+                font-weight: bold;
+            }
+            p{
+                font-size: 15px;
+                font-style: italic;
+                font-weight: bold;
+            }
+        }
+    }
+}
+footer{
+    p{  
+        background-color: rgb(88, 155, 160);
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bold;
+    }
+}
